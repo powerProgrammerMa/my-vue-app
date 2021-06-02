@@ -281,6 +281,18 @@ const routes = [
         /* webpackChunkName: "about" */ "../views/vueX/actions.vue"
       ),
   },
+  {
+    path: "/brother1",
+    name: "brother1",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../views/兄弟组件通讯/Parent.vue"
+      ),
+  },
+ 
   //配置404页面
   // {
   //   path: "*",

@@ -35,6 +35,8 @@
       <router-link to="/vuexshow2">简便使用vuex数据</router-link> |
       <router-link to="/getters">vuex的getters</router-link> |
       <router-link to="/actions">vuex的actions</router-link> |
+      <router-link to="/brother1">兄弟组件通讯--兄弟1</router-link> |
+      <router-link to="/brother2">兄弟组件通讯--兄弟2</router-link> |
     </div>
     <router-view />
   </div>

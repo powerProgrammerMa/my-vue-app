@@ -6,14 +6,6 @@
  * @Description: In User Settings Edit
  * @FilePath: \my-vue-app\src\views\component4.vue
 -->
-<!--
- * @Author: your name
- * @Date: 2021-04-20 15:59:15
- * @LastEditTime: 2021-04-20 16:07:10
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \my-vue-app\src\views\component3.vue
--->
 <template>
   <div>
     <div class="title">vue 组件5 component标签组件之间通讯</div>
@@ -28,6 +20,8 @@
 <script>
 import childComponent from "./componentchild";
 //总结：父子组件传参使用：绑定数据，子组件通过props来接收数据，通过@绑定方法到子组件，子组件通过this.$emit(绑定的方法,参数)给父组件提供数据
+//兄弟组件通讯可以使用bus:
+
 export default {
   name: "vue-component5",
   data: () => {
